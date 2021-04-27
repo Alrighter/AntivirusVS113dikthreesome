@@ -1,0 +1,18 @@
+﻿<Window x:Class="AntivirusVS113dikthreesome.RemoveVirusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AntivirusVS113dikthreesome"
+        mc:Ignorable="d"
+        Title="RABI Remover" Height="200" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid>
+            <ProgressBar HorizontalAlignment="Left" Height="24" Margin="103,126,0,0" VerticalAlignment="Top" Width="186" Foreground="#FF0068FF" BorderBrush="#FFFDFF00" Background="#FF88F100" Minimum="0" Maximum="59" Name="Progress"/>
+            <Label x:Name="label" Content="Перевірку закнчено:" HorizontalAlignment="Left" Margin="141,56,0,0" VerticalAlignment="Top" Height="51" FontStyle="Italic" FontWeight="Bold"/>
+            <Label x:Name="label1" Content="Вірус РАБІНО успішно вилучено!" HorizontalAlignment="Left" Margin="103,81,0,0" VerticalAlignment="Top" Width="254" FontStyle="Italic" FontWeight="Bold"/>
+
+        </Grid>
+    </Grid>
+
+</Window>
